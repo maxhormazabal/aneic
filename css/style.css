@@ -1,3 +1,37 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.form-input {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav img{
+    height: 4em;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;    
+}
+
+.nav-list li{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+}
