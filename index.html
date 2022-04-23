@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/img/favicon.png">
-    <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <title>ANEIC Chile</title>
 </head>
 <body>
     <header>
         <nav class="nav-menu">
-            <h1>ANEIC</h1>
+            <img src="../img/aneic-logo.png" width="70em" alt="">
             <ul class="nav-list">
-                <li class="nav-item"> <a href="#">Inicio</a> </li>
-                <li class="nav-item"> <a href="#">Nosotros</a> </li>
+                <li class="nav-item"> <a href="./index.html">Inicio</a> </li>
+                <li class="nav-item"> <a href="./pages/nosotros.html">Nosotros</a> </li>
                 <li class="nav-item"> <a href="#">Participa</a> </li>
-                <li class="nav-item"> <a href="#">Actividades</a> </li>
-                <li class="nav-item"> <a href="#">Comisiones</a> </li>
-                <li class="nav-item"> <a href="#">ALEIC</a> </li>
-                <li class="nav-item"> <a href="#">Contacto</a> </li>
+                    <ul>
+                        <li class="nav-subitem"><a href="./pages/participa-estudiante.html">Estudiantes</a></li>
+                        <li class="nav-subitem"><a href="./pages/participa-empresa.html">Empresas</a></li>
+                    </ul>
+                <li class="nav-item"> <a href="./pages/actividades.html">Actividades</a> </li>
+                <li class="nav-item"> <a href="./pages/comisiones.html">Comisiones</a> </li>
+                <li class="nav-item"> <a href="./pages/aleic.html">ALEIC</a> </li>
+                <li class="nav-item"> <a href="./pages/contacto.html">Contacto</a> </li>
             </ul>
         </nav>
     </header>
 
     <section class="cover-photo">    
-        <img src="img/portada.jpg" alt="portada-navegador" width="100%">
+        <h1>ANEIC</h1>
+        <img src="./img/cover-photo/portada-index.jpg" alt="portada-navegador" width="100%">
     </section>
     
     <section class="body-items">
