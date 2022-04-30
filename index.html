@@ -17,9 +17,10 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <a href="./index.html"><img src="../img/aneic-logo.png" alt=""></a>
+        </div>
         <nav class="nav-menu">
-            <img src="../img/aneic-logo.png" alt="">
-
                 <ul class="nav-list">
                     <li class="nav-item"> <a href="./index.html">Inicio</a> </li>
                     <li class="nav-item"> <a href="./pages/nosotros.html">Nosotros</a> </li>
@@ -56,7 +57,7 @@
             </div>
             <div class="slider">
                 <h2 class="body-subtitle">Universidades miembros</h2>
-                <div>
+                <div class="universidades">
                     <img src="img/universidades/pucv.png" alt="PUCV" width="150px" class="img-slider">
                     <img src="img/universidades/uach.png" alt="UACH" width="150px" class="img-slider">
                     <img src="img/universidades/ubiobio.png" alt="UBB" width="150px" class="img-slider">
@@ -78,8 +79,8 @@
                     <img src="img/universidades/uv.png" alt="UV" width="150px" class="img-slider">
                 </div>
             </div>
+            <h2 class="body-subtitle">Principales Actividades</h2>
             <div class="principal-act">
-                <h2 class="body-subtitle">Principales Actividades</h2>
                 <div class="act-item">
                     <i class="fa-solid fa-people-group"></i>
                     <div class="custom-span">Asambleas</div>
@@ -113,7 +114,7 @@
         <section class="body-items">
             <div class="slider">
                 <h2 class="body-subtitle">Auspiciadores</h2>
-                <div>
+                <div class="sponsors">
                     <img src="img/patrocinadores/1.png" alt="" width="150px" class="img-slider">
                     <img src="img/patrocinadores/2.png" alt="" width="150px" class="img-slider">
                     <img src="img/patrocinadores/3.png" alt="" width="150px" class="img-slider">
@@ -121,17 +122,21 @@
                     <img src="img/patrocinadores/5.png" alt="" width="150px" class="img-slider">
                 </div>
             </div>
-    
-            <div>
-                <p>¿Eres estudiante?</p>
-                <button>Únete</button>
+            
+            <div class="apoya">
+                <div>
+                    <p>¿Eres estudiante?</p>
+                    <button>Únete</button>
+                </div>
+                <div>
+                    <p>¿Eres profesional o empresa?</p>
+                    <button>Apóyanos</button>
+                </div>
             </div>
-            <div>
-                <p>¿Eres profesional o empresa?</p>
-                <button>Apóyanos</button>
-            </div>
+
         </section>
 
+        <h2 class="body-subtitle">Contáctanos</h2>
         <section class="form-container">
             <form class="contact-basic-form">
                 <input class="form-input" type="text" id="nombre" placeholder="Nombre" name="nombre">
@@ -143,55 +148,58 @@
         </section>    
     </main>
 
-    
-    <footer>
-        <div class="footer-cont">
-            <img src="img/isotipo.png" alt="isotipo">
-        </div>
-        <div class="footer-cont">
-            <div>
-                <a target="_blank" href="https://open.spotify.com/show/4UeH7hp4W5l6nUGUxJM2H8?si=48ef53b289b94e84">
-                    <i class="fa-brands fa-spotify"></i>
-                    <span>Civilizadamente</span>
-                </a>
-            </div>
-            <div>
-                <a target="_blank" href="mailto:directorio@aneic.cl">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>directorio@aneic.cl</span>
-                </a>
-            </div>
-            <div>
-                <a target="_blank" href="https://www.linkedin.com/company/aneicchile/">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <span>/aneicchile</span>
-                </a>
-            </div>
-        </div>
-        <div class="footer-cont">
-            <div>
-                
-                <a target="_blank" href="https://www.facebook.com/AneicChile">
-                    <i class="fa-brands fa-facebook-square"></i>
-                    <span>/AneicChile</span>
-                </a>
-            </div>
-            <div>
-                
-                <a target="_blank" href="https://www.youtube.com/channel/UC_7Ju0jOxLhKezffj5AZBqA">
-                    <i class="fa-brands fa-youtube"></i>
-                    <span>ANEIC Chile</span>
-                </a>
-            </div>
-            <div>
-                
-                <a target="_blank" href="https://www.instagram.com/aneic_chile/">
-                    <i class="fa-brands fa-instagram"></i>
-                    <span>@aneic_chile</span>
-                </a>
-            </div>
-        </div>
+    <hr>
 
+    <footer>
+        <div class="footer">
+            <div class="footer-cont">
+                <img src="img/isotipo.png" alt="isotipo">
+            </div>
+            <div class="footer-cont">
+                <div>
+                    <a target="_blank" href="https://open.spotify.com/show/4UeH7hp4W5l6nUGUxJM2H8?si=48ef53b289b94e84">
+                        <i class="fa-brands fa-spotify"></i>
+                        <span>Civilizadamente</span>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="mailto:directorio@aneic.cl">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>directorio@aneic.cl</span>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.linkedin.com/company/aneicchile/">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>/aneicchile</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-cont">
+                <div>
+                    
+                    <a target="_blank" href="https://www.facebook.com/AneicChile">
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <span>/AneicChile</span>
+                    </a>
+                </div>
+                <div>
+                    
+                    <a target="_blank" href="https://www.youtube.com/channel/UC_7Ju0jOxLhKezffj5AZBqA">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>ANEIC Chile</span>
+                    </a>
+                </div>
+                <div>
+                    
+                    <a target="_blank" href="https://www.instagram.com/aneic_chile/">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>@aneic_chile</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
         <div class="copyright"><p>Copyright <i class="fa-regular fa-copyright"></i> 2022 All Rights Reserved-ANEIC Chile</p></div>
     </footer>
 </body>
